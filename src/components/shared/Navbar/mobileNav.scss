@@ -1,0 +1,59 @@
+.mobile-nav .sidebar{
+    position: fixed;
+    background-color: #fff;
+    width: 300px;
+    max-width: 85%;
+    height: 100%;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1200;
+    .logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #ddd;
+        padding: 15px 20px;
+        button{
+            color: #222;
+            font-size: 30px;
+            cursor: pointer;
+            border: 0;
+            background: none;
+            display: flex;
+        }
+    }
+    .sidebar-logo {
+        width: 120px;
+        content: url("../../../assets/image/Group\ 2341.png");
+      }
+      .sidebar-link{
+        border-bottom: 1px solid #ddd;
+        &:hover .inner-sidebar-link{
+            border-left: 4px solid #FF844E;
+        }
+      }
+      .inner-sidebar-link{
+        padding: 15px 30px;
+      }
+      .link{
+        color: #222;
+        font-size: 15px;
+      }
+      .sidebar-auth{
+        padding: 15px 30px;
+        margin: 20px 0;
+        display: flex;
+        gap: 20px;
+      }
+}
+.mobile-nav .backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.75;
+    z-index: 1100;
+    width: 100%;
+    height: 100%;
+  }

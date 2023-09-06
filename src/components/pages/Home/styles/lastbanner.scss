@@ -1,0 +1,89 @@
+.home-page .banner-seven {
+    margin: 10% 0;
+    display: flex;
+    gap: 20px;
+    padding: 20px 50px;
+    margin-bottom: 22%;
+    position: relative;
+    .first-banner-seven {
+      width: 50%;
+      position: relative;
+      h2 {
+        width: 70%;
+        font-size: 22px;
+        font-weight: 400;
+      }
+      p {
+        width: 80%;
+        font-size: 12px;
+        margin-top: 12px;
+      }
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin-right: 73%;
+        margin-top: 12px;
+        border: none;
+        background: none;
+        padding: 10px 30px;
+        border: 1px solid #ff844e;
+        border-radius: 30px;
+        cursor: pointer;
+        &:hover{
+          background-color: #ff844e;
+          color: #fff;
+        }
+      }
+    }
+    .photo1 {
+      width: 16%;
+      position: absolute; 
+      content: url('../../../../assets/lastbanner/Ellipse\ 3.png');
+      bottom: 60%;
+      left: 50%;
+    }
+    .photo2 {
+      width: 18%;
+      position: absolute;
+      content: url('../../../../assets/lastbanner/Mask\ Group\ 1.png');
+      bottom: 62%;
+      right: 32.7%;
+    }
+    .photo3 {
+      width: 18%;
+      position: absolute;
+      content: url('../../../../assets/lastbanner/Rectangle\ 7.png');
+      top: 70%;
+      left: 50%;
+    }
+    .photo4 {
+      position: absolute;
+      width: 18%;
+      content: url('../../../../assets/lastbanner/Mask\ Group\ 2.png');
+      top: 70%;
+      right: 31.5%;
+    }
+    .photo5 {
+      width: 16%;
+      position: absolute;
+      content: url('../../../../assets/lastbanner/Rectangle\ 8.png');
+      bottom: -55%;
+      left: 70%;
+    }
+    .photo6 {
+        width: 20%;
+        position: absolute;
+        content: url('../../../../assets/lastbanner/Mask\ Group\ 3.png');
+        bottom: -54.3%;
+        left: 67.6%;
+      }
+    .second-banner-seven {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 10%;
+    }
+  }

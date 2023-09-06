@@ -1,0 +1,80 @@
+.home-page .container-images {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30%;
+  flex-wrap: wrap;
+  h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .images1 {
+    display: flex;
+    width: 100%;
+  }
+  .pic1 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-max-fischer-5212687.png");
+  }
+  .pic2 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-max-fischer-5212703.png");
+  }
+  .pic3 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-thirdman-8926408.png");
+  }
+  .pic4 {
+    width: 23.9%;
+    content: url("../../../../assets/pictures/pexels-tima-miroshnichenko-5427996.png");
+  }
+  .images2 {
+    display: flex;
+    width: 100%;
+  }
+  .pic5 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-max-fischer-5211437.png");
+  }
+  .pic6 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-max-fischer-5211446.png");
+  }
+  .pic7 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-max-fischer-5212354.png");
+  }
+  .pic8 {
+    width: 25%;
+    content: url("../../../../assets/pictures/pexels-max-fischer-5212649.png");
+  }
+   .button-image{
+    padding: 7px 10px ;
+    border: 1px solid #FF844E;
+    margin: 30px 45%;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+  }
+}
+
+
+
+@media (max-width:1020px) {
+    .container-images .images1 .pic1{
+        width: 25%;
+    }
+    .container-images .images1 .pic2{
+        width: 25%;
+    }
+    .container-images .images1 .pic3{
+        width: 25%;
+    }
+    .container-images .images1 .pic4{
+        width: 25%;
+    }
+    
+}

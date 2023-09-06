@@ -1,0 +1,191 @@
+.home-page .banner {
+  background: url("../../../../assets/image/Group\ 13335.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 180px 5% 140px;
+  display: flex;
+  flex-wrap: wrap !important;
+  margin-bottom: 20%;
+  .text {
+    width: 50%;
+  }
+  .second-banner{
+    width: 50%;
+  }
+  h1 {
+    font-size: 25px;
+    padding: 5px 15px;
+  }
+  p {
+    font-size: 10px;
+    padding: 5px 15px 50px;
+    line-height: 25px;
+  }
+  .shared-button {
+    background-color: #ff844e;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 15px;
+    position: relative;
+  }
+  .banner-box {
+    position: absolute;
+    right: 28%;
+    bottom: 50%;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-box {
+    width: 100%;
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .picture {
+    width: 10%;
+    content: url("../../../../assets/image/Layer\ 2.png");
+    margin-top: 10px;
+  }
+  span {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+  p {
+    font-size: 10px;
+    margin-bottom: -20px;
+  }
+  .banner-box1{
+    position: absolute;
+    right: 5%;
+    bottom: 27%;
+    border: 1px solid #d4d4d4;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .second-box{
+    width: 90%;
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .picture1 {
+    width: 10%;
+    content: url("../../../../assets/image/352228_work_icon\ \(1\).png");
+  }
+  .banner-box2{
+    position: absolute;
+    right: 35%;
+    bottom: 5%;
+    color: #000000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+      color: #ffffff;
+    }
+    p{
+      width: 90%;
+      text-align: center;
+      color: #ffffff;
+    }
+  }
+  .background-image{
+    position: absolute;
+    width: 90%;
+    content: url('../../../../assets/banner3/javier-trueba-iQPr1XkF5F0-unsplash.png');
+  }
+  .shadow{
+    position: absolute;
+    width: 90%;
+    content: url('../../../../assets/banner3/Path\ 27923.png');
+  }
+  .third-box{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+  }
+  .picture2 {
+    width: 13%;
+    content: url("../../../../assets/banner3/8541740_chalkboard_teacher_icon.png");
+  }
+}
+
+
+// @media(max-width:950px){
+//   .banner{
+//     flex-direction: column;
+//   }
+// }
+@media (max-width: 768px) {
+  .home-page .banner {
+    padding: 100px 5% 80px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .text,
+  .second-banner {
+    width: 100%;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 576px) {
+  .home-page .banner {
+    padding: 80px 5% 60px;
+  }
+  h1 {
+    font-size: 20px;
+    padding: 5px 10px;
+  }
+  p {
+    font-size: 8px;
+    padding: 5px 10px 30px;
+    line-height: 20px;
+  }
+  .shared-button {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin-left: 10px;
+  }
+  .picture,
+  .picture1,
+  .picture2 {
+    width: 15%;
+  }
+  span {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  p {
+    font-size: 8px;
+    margin-bottom: -10px;
+  }
+  .banner-box,
+  .banner-box1,
+  .banner-box2 {
+    border-radius: 10px;
+  }
+}
