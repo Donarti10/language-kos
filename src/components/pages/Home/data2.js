@@ -19,7 +19,7 @@ export const data2  = [
         icon: icon2,
         name:'Addison Parker',
         text:'Spanish Student',
-        describe:'I remember being asked about why I had this passion for learning languages, and I kinda regretted not giving a complete answer.',
+        describe:'I remember being asked about why I had this passion for learning language, The French language has been heavily influenced by Latin, as well as by Celtic, Germanic, and other languages due to historical migrations and conquests.',
         rating:'(4.9)',
         image:icon5
     },
@@ -28,7 +28,7 @@ export const data2  = [
         icon: icon3,
         name:'William Brown',
         text:'Arab Student',
-        describe:'I was quite surprised to have gotten Arabic, a language vastly unrelated to those I was familiar with.',
+        describe:'I was quite surprised to have gotten Arabic, a language vastly unrelated to those I was familiar with,  Arabic is one of the oldest languages in the world and has a history spanning thousands of years.',
         rating:'(4.8)',
         image:icon5
     },
@@ -36,8 +36,8 @@ export const data2  = [
         id:4,
         icon: icon4,
         name:'Miller Lopez',
-        text:'Malay Student',
-        describe:'Interested in something new, I decided on my first choice being German, second Arabic and third Malay.',
+        text:'Spanish Student',
+        describe:'Interested in something new, I decided on my first choice being German, second Arabic and third Spanish, Spanish is a Romance language that evolved from Vulgar Latin, the spoken language of the Roman Empire.',
         rating:'(5.0)',
         image:icon5
     },

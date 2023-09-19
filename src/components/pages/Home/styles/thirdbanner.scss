@@ -13,17 +13,21 @@
   .inline-banner {
     width: 50%;
     padding: 5% 0;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  p {
-    font-size: 11px;
+    h2 {
+      font-size: max(17px, 2.1vw);
+      font-weight: 400;
+    }
+    p {
+      font-size: max(9px, 1vw);
+      font-weight: 300;
+      margin-top: 15px;
+      width: 80%;
+    }
   }
   .carousel-banner {
     width: 50%;
     position: relative;
-    height: 350px;
+    height: 300px;
   }
   .carousel-background {
     content: url("../../../../assets/banner3/Subtraction\ 35.png");
@@ -42,57 +46,63 @@
     content: url("../../../../assets/banner3/Subtraction\ 36.png");
   }
   .inline-item {
+    display: flex;
     width: 100%;
-    margin: 20px 0;
+    margin: 30px 30px 0 0;
   }
   .third-item {
     flex-direction: column;
   }
-  .icon-third-banner {
-    padding: 5px;
+  .inline-item-third-banner{
+    display: flex;
+    gap: 20px;
   }
   h4 {
-    font-weight: 500;
-    font-size: 12px;
+    font-weight: 300;
+    font-size: max(11px, 1vw);
   }
   h6 {
-    font-weight: 600;
-    font-size: 14px;
-    color: #ff844e;
+    font-weight: 300;
+    font-size: max(11px, 1vw);
+    color: var(--main-color);
   }
   p {
-    font-weight: 600;
-    width: 95%;
+    font-weight: 400;
+    font-size: max(11px, 1vw);
     padding: 20px 0;
     line-height: 2;
   }
   span {
-    font-size: 15px;
+    font-size: max(11px, 1vw);
   }
   .inline-rating {
     display: flex;
+    align-items: center;
     gap: 10px;
-    padding-bottom: 20px;
   }
   .inline-img {
     display: flex;
-    width: 10%;
+    width: 15%;
     gap: 20px;
   }
   .star {
-    width: 25px;
+    width: max(16px , 2vw);
     content: url("../../../../assets/banner3/Path\ 27918.png");
   }
   .img1 {
+    min-width: 80%;
     content: url("../../../../assets/banner3/taylor-hernandez-DLKR_x3T_7s-unsplash.svg");
   }
   .img2 {
+    min-width: 80%;
     content: url("../../../../assets/banner3/nikolay-vybornov-lC6f79utuKM-unsplash.svg");
   }
   .img3 {
+    min-width: 80%;
     content: url("../../../../assets/banner3/fleur-kaan-pyrJHb1QTRA-unsplash.svg");
   }
   .img4 {
+    min-width: 80%;
     content: url("../../../../assets/banner3/toa-heftiba-2RFwLL-YX44-unsplash.svg");
   }
 }
@@ -109,8 +119,8 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    background-color: #ff844e !important;
-    border: 1px solid #ff844e !important;
+    background-color: var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
     color: #fff !important;
     box-shadow: none !important;
     margin: 15px !important;
@@ -118,23 +128,23 @@
   .rec-dot {
     width: 15px !important;
     height: 15px !important;
-    border: 2px solid #ff844e !important;
+    border: 2px solid var(--main-color) !important;
     box-shadow: none !important;
   }
   .rec-dot_active {
-    background-color: #ff844e !important;
+    background-color: var(--main-color) !important;
   }
   .rec.rec-arrow {
     position: relative !important;
   }
   .rec-arrow-right {
     position: absolute !important;
-    bottom: 55% !important;
+    bottom: 58% !important;
     left: -5px !important;
   }
   .rec-arrow-left {
     position: absolute !important;
-    bottom: 55% !important;
+    bottom: 58% !important;
     left: 82% !important;
   }
   .rec.rec-pagination {
@@ -147,21 +157,21 @@
 @media (max-width: 1250px) {
     .home-page .third-banner .rec-arrow-right {
         position: absolute !important;
-        bottom: 55% !important;
+        bottom: 58% !important;
         left: 0 !important;
       }
   }
   @media (max-width: 1150px) {
     .home-page .third-banner .rec-arrow-right {
         position: absolute !important;
-        bottom: 55% !important;
+        bottom: 58% !important;
         left: 2% !important;
       }
   }
   @media (max-width: 1100px) {
     .home-page .third-banner .rec-arrow-right {
         position: absolute !important;
-        bottom: 55% !important;
+        bottom: 58% !important;
         left: 3% !important;
       }
   }
@@ -180,18 +190,32 @@
 }
 @media (max-width: 1020px) {
     .home-page .third-banner .rec-arrow-left {
-        // position: absolute !important;
-        // bottom: 57% !important;
-        // left: 88% !important;
         display: none !important;
       }
       .home-page .third-banner .rec-arrow-right {
-        // position: absolute !important;
-        // bottom: 57% !important;
-        // left: 3% !important;
         display: none !important;
       }
       .home-page .third-banner .inline-item{
-        padding: 20px 30px;
+        padding: 10px 30px;
       }
   }
+  @media (max-width: 768px) {
+      .home-page .third-banner .inline-item{
+        padding: 0 5px;
+      }
+  }
+  @media (max-width: 768px) {
+    .home-page .third-banner .inline-item{
+      padding: 0 5px;
+    }
+}
+@media(max-width:427px) {
+  .home-page .third-banner {
+   padding: 100px 1%;
+  }
+}
+@media(max-width:368px) {
+  .home-page .third-banner {
+   padding: 90px 0%;
+  }
+}

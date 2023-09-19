@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./mobileNav.scss";
 import { CgClose } from "react-icons/cg";
-import { BiSearch } from "react-icons/bi";
-import { AiOutlineHeart, AiOutlineShoppingCart } from "react-icons/ai";
 
 const MobileNav = (props) => {
   return (
@@ -59,23 +57,18 @@ const MobileNav = (props) => {
         </div>
         <div className="sidebar-link">
           <div className="inner-sidebar-link">
-            <Link to="/" className="link">
+            <Link to="/blog" className="link">
               Blog
             </Link>
           </div>
         </div>
         <div className="sidebar-auth">
-          <Link to="/" className="first-button">
+          <Link to="/login" className="first-button">
             Log In
           </Link>
           <Link to="/" className="second-button">
             Sign Up
           </Link>
-          {/* <div className="sidebar-icons">
-          <BiSearch />
-          <AiOutlineHeart />
-          <AiOutlineShoppingCart />
-          </div> */}
         </div>
       </div>
       <div className="backdrop" onClick={props.closeSidebar}>

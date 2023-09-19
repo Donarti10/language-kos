@@ -1,0 +1,133 @@
+ .banner-blog {
+    margin:5% 0;
+    display: flex;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    width: 100%;
+    .first-banner-blog{
+      display: flex; 
+      padding: 0px 5%;
+      flex-wrap: wrap;
+    }
+    .blog-item{
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+      span{
+        display: flex;
+        width: 90%;
+        margin-bottom: 50px;
+        font-size:max(10px,1vw);
+      }
+      p{
+        color: var(--main-color);
+        font-size:max(7px,1vw);
+
+      }
+    }
+   .image-blogs{
+    width: 90%;
+   }
+   .blog-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   button{
+    display: flex;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    margin: -20px 25px 0 0;
+    font-size:max(7px,0.90vw);
+    cursor: pointer;
+  }
+ }
+ .banner-photo-blog{
+      background: url("../../../assets/blog/pexels-canva-studio-3194523.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      flex-wrap: wrap !important;
+      width: 100%;
+      padding-bottom: 8%;
+      position: relative;
+      flex-direction: column;
+      margin-bottom: 5%;
+      h1 {
+        color: #fff;
+        z-index: 100;
+        font-size: max(15px,1.5vw);
+        font-weight: 500;
+        margin-top: 5%;
+      }
+      p {
+        color: #fff;
+        z-index: 100;
+        font-size: max(12px,1.1vw);
+        font-weight: 300;
+      }
+      .shadow-blog{
+        content: url("../../../assets/blog/Rectangle\ 288.png");
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+      .text-blog {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+      }
+    }
+
+
+
+    @media (max-width:800px) {
+      .banner-blog .first-banner-blog{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .banner-blog .blog-item{
+        width: 50%;
+      }
+      .banner-photo-blog{
+        margin-top: 3%;
+      }
+    }
+    
+    @media (max-width:600px) {
+      .banner-photo-blog{
+        margin-top: 5%;
+      }
+    }
+    @media (max-width:500px) {
+      .banner-blog .first-banner-blog{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .banner-blog .blog-item{
+        width: 80%;
+        margin-left: 10%;
+      }
+      .banner-photo-blog{
+        margin-top: 8%;
+      }
+    }
+    @media (max-width:400px) {
+      .banner-photo-blog{
+        margin-top: 12%;
+      }
+    }
+    @media (max-width:300px) {
+      .banner-photo-blog{
+        margin-top: 14%;
+      }
+    }
+    

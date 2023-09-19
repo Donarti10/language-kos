@@ -1,0 +1,26 @@
+.light-dark-mode {
+  background-color: #d1d1d1;
+  width: 40px;
+  height: 17px;
+  border-radius: 100vw;
+  cursor: pointer;
+  .mode {
+    width: 10px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin:3px 5px 0 5px ;
+    height: 10px;
+    background-color: #1a191d;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+  }
+}
+
+.dark-mode .light-dark-mode {
+  background-color: #d1d1d1;
+  .mode {
+    margin-left: auto;
+  }
+}

@@ -6,7 +6,8 @@ import ThirdBanner from '../../components/pages/Home/ThirdBanner'
 import FourthBanner from '../../components/pages/Home/FourthBanner'
 import ImageBanner from '../../components/pages/Home/ImageBanner'
 import LastBanner from '../../components/pages/Home/LastBanner'
-import Footer from '../../components/shared/Navbar/Footer'
+import Footer from '../../components/shared/Footer/Footer'
+import Footer2 from '../../components/shared/Footer/Footer2'
 // import SixBanner from '../../components/pages/Home/SixBanner'
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
         {/* <SixBanner /> */}
         <LastBanner />
         <Footer />
+        <Footer2 />
     </div>
   )
 }

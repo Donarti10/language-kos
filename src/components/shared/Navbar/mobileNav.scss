@@ -16,7 +16,7 @@
         padding: 15px 20px;
         button{
             color: #222;
-            font-size: 30px;
+            font-size: max(15px,4vw);
             cursor: pointer;
             border: 0;
             background: none;
@@ -30,7 +30,7 @@
       .sidebar-link{
         border-bottom: 1px solid #ddd;
         &:hover .inner-sidebar-link{
-            border-left: 4px solid #FF844E;
+            border-left: 4px solid var(--main-color);
         }
       }
       .inner-sidebar-link{
@@ -38,13 +38,14 @@
       }
       .link{
         color: #222;
-        font-size: 15px;
+        font-size: max(12px,2vw);
       }
       .sidebar-auth{
         padding: 15px 30px;
         margin: 20px 0;
         display: flex;
         gap: 20px;
+        font-size:max(14px,1.2vw);
       }
 }
 .mobile-nav .backdrop{

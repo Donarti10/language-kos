@@ -1,5 +1,5 @@
 .home-page .banner-four {
-  margin: 10% 0;
+  margin: 10% 0 25% 0;
   display: flex;
   padding: 20px 50px;
   position: relative;
@@ -52,10 +52,11 @@
     border-radius: 20px;
     padding: 10px 60px;
     p {
-      font-size: 12px;
+      font-size: max(10px,1vw);
+      font-weight: 300;
     }
     h4 {
-      font-size: 13px;
+      font-size: max(10px,1vw);
       font-weight: 500;
       margin-bottom: 10px;
     }
@@ -78,11 +79,12 @@
     gap: 8px;
     padding-top: 10px;
     h5 {
-      font-size: 12px;
+      font-size: max(10px,1vw);
       font-weight: 500;
     }
     span {
-      font-size: 12px;
+      font-size: max(9px,0.85vw);
+      font-weight: 300;
     }
   }
   .arrow {
@@ -93,7 +95,7 @@
     align-items: center;
     justify-content: center;
     border: none;
-    background-color: #ff844e;
+    background-color: var(--main-color);
     color: #fff;
     cursor: pointer;
   }
@@ -102,6 +104,11 @@
     gap: 10px;
     button {
       margin: 13px 10px;
+      font-size: max(10px,1vw);
+    }
+    h4{
+      font-size: max(9.5px,0.90vw);
+      font-weight: 400;
     }
   }
   .second-banner-four {
@@ -112,24 +119,26 @@
     justify-content: center;
     padding-top: 10%;
     h2 {
-      font-size: 22px;
+      font-size: max(14px,1.5vw);
       font-weight: 400;
     }
     p {
-      font-size: 12px;
-      margin-top: 12px;
+      font-size: max(10px,1vw);
+      margin-top: 5px;
+      font-weight: 300;
     }
     button {
       display: flex;
       align-items: center;
-      justify-content: start;
+      justify-content: flex-start;
       margin-right: 73%;
       margin-top: 12px;
       border: none;
       background: none;
-      padding: 10px 30px;
+      padding: 10px 35px;
       border: 1px solid #ff844e;
       border-radius: 30px;
+      font-size: 12px;
       cursor: pointer;
       &:hover{
         background-color: #ff844e;

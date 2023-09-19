@@ -9,7 +9,7 @@ nav {
   justify-content: space-between;
   background-color: #fff;
   padding: 0 2%;
-  z-index: 2;
+  z-index: 20;
   .nav-logo {
     width: max(80px, 12vw);
     content: url("../../../assets/image/Group\ 2341.png");
@@ -19,9 +19,12 @@ nav {
     align-items: center;
   }
   .nav-link {
-    padding: max(25px, 2vw);
     display: flex;
     align-items: center;
+    position: relative;
+    &:hover .nav-megamenu{
+      display: flex;
+    }
   }
   .inner-nav-link {
     color: black;
@@ -29,7 +32,9 @@ nav {
     padding: max(25px, 3vw) 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    svg{
+      font-size: 15px;
+    }
   }
   .nav-auth {
     display: flex;
@@ -44,7 +49,7 @@ nav {
     background-color: #35313c;
     color: #fff;
     border-radius: 20px;
-    font-size: 10px;
+    font-size: max(8px,0.70vw);
     padding: 10px 20px;
   }
   .nav-icon {
@@ -55,7 +60,7 @@ nav {
   .menu-button {
     color: #000000;
     background: none;
-    font-size: 25px;
+    font-size: max(20px,2.5vw);
     display: none;
     cursor: pointer;
     border: 0;

@@ -8,7 +8,7 @@ const Banner = () => {
         <div className='text'>
         <h1> Get More From Popular Culture</h1>
         <p>Our mission is to build a world in which anybody, anywhere can change their lives by learning new things. Educating all kids for global success today and tomorrow. We offer high-quality courses with relevant information to motivate everyone to learn and land their ideal profession.</p>
-        <Link to='/' className='shared-button'>Learn more</Link>
+        <Link to='/' className='sharedd-button'>Learn more</Link>
         </div>
         <div className='second-banner'>
         <div className='banner-box'>

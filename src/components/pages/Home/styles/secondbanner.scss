@@ -5,6 +5,8 @@
 h3 {
   margin: 5% 0;
   text-align: center;
+  font-size: max(14px,1.3vw);
+  font-weight: 500;
 }
 .slider-item {
   width: 70%;
@@ -14,9 +16,13 @@ h3 {
 }
 h4 {
   padding-top: 15px;
+  font-size: max(13px, 1vw);
+  font-weight: 400;
 }
 p {
   padding: 20px 0;
+  font-size:max(10px,0.85);
+  line-height: 2;
 }
 .home-page .our-team {
   .rec-arrow,
@@ -31,18 +37,18 @@ p {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    background-color: #FF844E !important;
-    border: 1px solid #FF844E !important;
+    background-color: var(--main-color) !important;
+    border: 1px solid var(--main-color) !important;
     color: #fff !important;
     box-shadow: none !important;
   }
   .rec-dot{
     width: 15px !important;
     height: 15px !important;
-    border: 2px solid #FF844E !important;
+    border: 2px solid var(--main-color) !important;
     box-shadow: none !important;
   }
   .rec-dot_active{
-    background-color: #FF844E !important;
+    background-color:var(--main-color) !important;
   }
 }

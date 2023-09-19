@@ -2,7 +2,7 @@
     margin: 10% 0;
     display: flex;
     gap: 20px;
-    padding: 20px 50px;
+    padding: 20px 5% 0;
     margin-bottom: 22%;
     position: relative;
     .first-banner-seven {
@@ -10,80 +10,353 @@
       position: relative;
       h2 {
         width: 70%;
-        font-size: 22px;
+        font-size: max(10px,2vw);
         font-weight: 400;
       }
       p {
         width: 80%;
-        font-size: 12px;
+        font-size: max(10px,1vw);
+        font-weight: 300;
         margin-top: 12px;
       }
       button {
         display: flex;
         align-items: center;
-        justify-content: start;
-        margin-right: 73%;
-        margin-top: 12px;
+        justify-content: flex-start;
+        margin: 12px 73% 0 0 ;
         border: none;
         background: none;
         padding: 10px 30px;
-        border: 1px solid #ff844e;
+        border: 1px solid var(--main-color);
         border-radius: 30px;
+        font-size: max(10px,1vw);
         cursor: pointer;
         &:hover{
-          background-color: #ff844e;
+          background-color: var(--main-color);
           color: #fff;
         }
       }
     }
     .photo1 {
-      width: 16%;
+      width: 14%;
       position: absolute; 
       content: url('../../../../assets/lastbanner/Ellipse\ 3.png');
-      bottom: 60%;
-      left: 50%;
+      bottom: 51%;
+      left: 58%;
     }
     .photo2 {
-      width: 18%;
+      width: 16%;
       position: absolute;
       content: url('../../../../assets/lastbanner/Mask\ Group\ 1.png');
-      bottom: 62%;
-      right: 32.7%;
+      bottom: 52%;
+      right: 27%;
     }
     .photo3 {
-      width: 18%;
+      width: 15%;
       position: absolute;
       content: url('../../../../assets/lastbanner/Rectangle\ 7.png');
-      top: 70%;
-      left: 50%;
+      top: 60%;
+      left: 58%;
     }
     .photo4 {
       position: absolute;
-      width: 18%;
+      width: 15%;
       content: url('../../../../assets/lastbanner/Mask\ Group\ 2.png');
-      top: 70%;
-      right: 31.5%;
+      top: 60%;
+      right: 27%;
     }
     .photo5 {
-      width: 16%;
+      width: 13%;
       position: absolute;
       content: url('../../../../assets/lastbanner/Rectangle\ 8.png');
-      bottom: -55%;
-      left: 70%;
+      bottom: -30%;
+      left: 76%;
     }
     .photo6 {
-        width: 20%;
+        width: 16%;
         position: absolute;
         content: url('../../../../assets/lastbanner/Mask\ Group\ 3.png');
-        bottom: -54.3%;
-        left: 67.6%;
+        bottom: -30%;
+        left: 74%;
       }
     .second-banner-seven {
       width: 50%;
-      display: flex;
+      display: fixed;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       padding-top: 10%;
     }
   }
+
+
+
+  @media (max-width:1020px) {
+    .home-page .banner-seven{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 50%;
+    }
+    .home-page .banner-seven .photo1 {
+      position: absolute;
+      width: 20%;
+      top: 75%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo2 {
+      position: absolute;
+      width: 20%;
+      top: 75%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo3 {
+      position: absolute;
+      width: 20%;
+      top: 125%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo4 {
+      position: absolute;
+      width: 20%;
+      top: 125%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo5 {
+      position: absolute;
+      width: 17%;
+      top: 75%;
+      left: 50%;
+    }
+    .home-page .banner-seven .photo6 {
+      position: absolute;
+      width: 20%;
+      top: 81%;
+      left: 48%;
+    }
+    .home-page .banner-seven .first-banner-seven{
+      margin-bottom: 15%;
+      h2 {
+        width: 90%;
+        font-size: 22px;
+        font-weight: 400;
+      }
+      p {
+        width: 90%;
+        font-size: 12px;
+        margin-top: 12px;
+      }
+      button {
+        margin: 0 0 0 1%;
+        padding: 5px 10%;
+      }
+    }
+    
+  }
+  @media (max-width:850px) {
+    .home-page .banner-seven .photo1 {
+      position: absolute;
+      width: 22%;
+      top: 75%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo2 {
+      position: absolute;
+      width: 22%;
+      top: 75%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo3 {
+      position: absolute;
+      width: 22%;
+      top: 115%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo4 {
+      position: absolute;
+      width: 22%;
+      top: 115%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo5 {
+      position: absolute;
+      width: 19%;
+      top: 75%;
+      left: 50%;
+    }
+    .home-page .banner-seven .photo6 {
+      position: absolute;
+      width: 22%;
+      top: 81%;
+      left: 48%;
+    }
+  }
+
+  @media (max-width:700px) {
+    .home-page .banner-seven .photo1 {
+      position: absolute;
+      width: 25%;
+      top: 75%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo2 {
+      position: absolute;
+      width: 25%;
+      top: 75%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo3 {
+      position: absolute;
+      width: 25%;
+      top: 115%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo4 {
+      position: absolute;
+      width: 25%;
+      top: 115%;
+      left: 25%;
+    }
+    .home-page .banner-seven .photo5 {
+      position: absolute;
+      width: 22%;
+      top: 75%;
+      left: 53%;
+    }
+    .home-page .banner-seven .photo6 {
+      position: absolute;
+      width: 25%;
+      top: 82.5%;
+      left: 51.5%;
+    }
+  }
+  @media (max-width:600px) {
+    .home-page .banner-seven{
+      margin-bottom: 65%;
+    }
+    .home-page .banner-seven .first-banner-seven{
+      margin-bottom: 25%;
+  }
+  .home-page .banner-seven .photo1 {
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 17%;
+  }
+  .home-page .banner-seven .photo2 {
+    position: absolute;
+    width: 30%;
+    top: 75%;
+    left: 17%;
+  }
+  .home-page .banner-seven .photo3 {
+    position: absolute;
+    width: 30%;
+    top: 115%;
+    left: 17%;
+  }
+  .home-page .banner-seven .photo4 {
+    position: absolute;
+    width: 30%;
+    top: 115%;
+    left: 17%;
+  }
+  .home-page .banner-seven .photo5 {
+    position: absolute;
+    width: 27%;
+    top: 75%;
+    left: 53%;
+  }
+  .home-page .banner-seven .photo6 {
+    position: absolute;
+    width: 30%;
+    top: 82.5%;
+    left: 51.5%;
+  }
+}
+@media (max-width:600px) {
+.home-page .banner-seven .photo3 {
+  position: absolute;
+  width: 30%;
+  top: 110%;
+  left: 17%;
+}
+.home-page .banner-seven .photo4 {
+  position: absolute;
+  width: 30%;
+  top: 110%;
+  left: 17%;
+}
+}
+@media (max-width:450px) {
+  .home-page .banner-seven .first-banner-seven{
+    margin-bottom: 40%;
+}
+.home-page .banner-seven .photo1 {
+  position: absolute;
+  width: 35%;
+  top: 75%;
+  left: 17%;
+}
+.home-page .banner-seven .photo2 {
+  position: absolute;
+  width: 35%;
+  top: 75%;
+  left: 17%;
+}
+.home-page .banner-seven .photo3 {
+  position: absolute;
+  width: 35%;
+  top: 105%;
+  left: 17%;
+}
+.home-page .banner-seven .photo4 {
+  position: absolute;
+  width: 35%;
+  top: 105%;
+  left: 17%;
+}
+.home-page .banner-seven .photo5 {
+  position: absolute;
+  width: 32%;
+  top: 75%;
+  left: 57%;
+}
+.home-page .banner-seven .photo6 {
+  position: absolute;
+  width: 35%;
+  top: 82.5%;
+  left: 55%;
+}
+}
+@media (max-width:400px) {
+  .home-page .banner-seven{
+    margin-bottom: 70%;
+  }
+  .home-page .banner-seven .first-banner-seven{
+    margin-bottom: 45%;
+}
+}
+@media (max-width:400px) {
+  .home-page .banner-seven .first-banner-seven{
+    margin-bottom: 55%;
+}
+.home-page .banner-seven .photo3 {
+  position: absolute;
+  width: 35%;
+  top: 100%;
+  left: 17%;
+}
+.home-page .banner-seven .photo4 {
+  position: absolute;
+  width: 35%;
+  top: 100%;
+  left: 17%;
+}
+.home-page .banner-seven .photo6 {
+  position: absolute;
+  width: 35%;
+  top: 80%;
+  left: 55%;
+}
+}

@@ -1,7 +1,6 @@
 .home-page .container-images {
   display: flex;
   flex-direction: column;
-  margin-top: 30%;
   flex-wrap: wrap;
   h1{
     display: flex;
@@ -51,15 +50,12 @@
     width: 25%;
     content: url("../../../../assets/pictures/pexels-max-fischer-5212649.png");
   }
-   .button-image{
-    padding: 7px 10px ;
-    border: 1px solid #FF844E;
-    margin: 30px 45%;
-    border-radius: 20px;
-    background: #fff;
-    cursor: pointer;
-  }
 }
+.container-images .shared-button{
+margin-left: 45%;
+padding: 4px 40px;
+}
+ 
 
 
 
@@ -78,3 +74,6 @@
     }
     
 }
+
+
+

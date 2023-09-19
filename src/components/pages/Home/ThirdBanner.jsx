@@ -28,7 +28,7 @@ const ThirdBanner = () => {
             return (
               <div className="inline-item" key={props.id}>
                 <div className="inline-third-item">
-                  
+                  <div className="inline-item-third-banner">
                   <div
                     className="icon-third-banner"
                     style={{ content: `url(${props.icon})` }}
@@ -36,6 +36,7 @@ const ThirdBanner = () => {
                   <div className="third-item">
                     <h4>{props.name}</h4>
                     <h6>{props.text}</h6>
+                    </div>
                   </div>
                   <div className="quotes" />
                 <div>

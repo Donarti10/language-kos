@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 
 *,
 *::after,
@@ -14,5 +14,94 @@ html {
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.shared-button {
+  display: flex;
+  margin-top: 12px;
+  border: none;
+  background: none;
+  border: 1px solid #ff844e;
+  border-radius: 30px;
+  font-size: max(9px, 0.9vw);
+  width: 10%;
+  cursor: pointer;
+  &:hover {
+    background-color: #ff844e;
+    color: #fff;
+  }
+}
+
+.dark-mode {
+  background-color: #1a191d;
+  color: #fff;
+  button {
+    color: #fff;
+  }
+  nav {
+    background-color: #1a191d;
+    color: #fff;
+    svg{
+      color: #fff;
+    }
+  }
+  .mobile-nav .sidebar{
+    background-color: #1a191d;
+  }
+  .mobile-nav .sidebar .link{
+    color: #fff;
+  }
+  .inner-nav-link {
+    color: #fff;
+  }
+  .nav-logo {
+    content: url("../src/assets/lastbanner/Group\ 2341.png");
+  }
+  .first-button {
+    color: #fff;
+  }
+  .home-page .banner-four .box {
+    background-color: #1a191d;
+    color: #fff;
+  }
+  .home-page .banner .first-box {
+    background-color: #1a191d;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+  }
+  .home-page .banner .second-box {
+    background-color: #1a191d;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+  }
+  .home-page footer .inline-images-footer .moon {
+    color: #fff;
+  }
+  .home-page footer .inline-images-footer .sun {
+    color: var(--main-color);
+  }
+  .images-component .login-page .username input {
+    background-color: #1a191d;
+  }
+  .inline-login input {
+    background-color: #1a191d;
+  }
+  .inline-login .login-checkbox {
+    accent-color: red;
+  }
+  .nav-megamenu{
+    background-color: #1a191d;
+  }
+  .menu-link{
+    color:#fff;
+  }
+  .mobile-nav .sidebar .sidebar-logo{
+    content: url('../src/assets/blog/Group\ 2341.png');
+  }
+}
+
+:root {
+  --main-color: #ff844e;
 }

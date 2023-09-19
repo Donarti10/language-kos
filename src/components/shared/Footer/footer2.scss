@@ -1,0 +1,165 @@
+footer{
+    padding:30px 5% 15px;
+    background-color: #090909;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    h6{
+        color:#fff;
+        font-size: max(10px,1.1vw);
+        margin-bottom: 10px;
+        font-weight: 600;
+
+    }
+    .category{
+        width: 10%;
+        margin:20px 0;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        a{
+            font-size: max(8px,0.80vw);
+            color:#fff;
+            padding: 6px 0;
+            font-weight: 300;
+        }
+    }
+}
+
+footer .languagekos-footer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 25px 0;
+    .image-footer{
+        content: url('../../../assets/footer/Group\ 2342.png');
+        width: 50%;
+    }
+    p{
+        color: #fff;
+        font-size: max(8px,0.90vw);
+        font-weight: 300;
+        width: 97%;
+        line-height: 2;
+    }
+    .footer-image-side{
+        display: flex;
+        gap: 15px;
+        cursor: pointer;
+        .icn1{
+            content: url('../../../assets/footer/Path\ 316.png');
+        }
+        .icn2{
+            content: url('../../../assets/footer/Path\ 317.png');
+        }
+        .icn3{
+            content: url('../../../assets/footer/twitter__x2C__social__x2C__media_x2C__icons_x2C_.png');
+        }
+        .icn4{
+            content: url('../../../assets/footer/Path\ 318.png');
+        }
+    }
+    .app-footer{
+        display: flex;
+        margin: 15px 0 0 -2%;
+        cursor: pointer;
+        .google{
+            width: 30%;
+            content: url('../../../assets/footer/google-play-badge.png');
+        }
+        .app-store{
+            width:30%;
+            content: url('../../../assets/footer/1.png');
+        }
+    }
+}
+footer .footer2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-top: 20px;
+    p{
+        color:#fff;
+        font-size: max(10px,1vw);
+    }   
+}
+footer .last-row{
+    p{
+        font-size: max(10px,1.1vw);
+        font-weight: 300;
+    }
+}
+footer .prefered-theme{
+    display: flex;
+    gap: 20px;
+    p{
+        font-size: max(10px,0.90vw);
+        font-weight: 300;
+    }
+}
+footer .inline-images-footer{
+    display:flex;
+    gap: 20px;
+    height: 15px;
+    .sun{
+        color: #fff;
+    }
+    .moon{
+        color:var(--main-color);
+    }
+}
+footer .icon-footer{
+    content: url('../../../assets/footer/Path\ 82.png');
+}
+footer .icon1-footer{
+    content: url('../../../assets/footer/Path\ 83.png');
+}
+footer .icon2-footer{
+    content: url('../../../assets/footer/g10.png');
+}
+
+
+@media (max-width:950px) {
+    footer .languagekos-footer{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5% 0 0 30%;
+    }
+}
+@media (max-width:750px) {
+    footer .links .category {
+        width: 40%;
+        margin-left: 10%;
+    }
+    footer .footer2{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .inline-images-footer{
+        height: 20px;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width:750px) {
+    footer .languagekos-footer .image-footer{
+        width: 55%;
+    }
+    footer .languagekos-footer .app-footer .google{
+        width: 40%;
+    }
+    footer .languagekos-footer .app-footer .app-store{
+        width: 40%;
+    }
+    footer .inline-images-footer{
+        height: 15px;
+    }
+}

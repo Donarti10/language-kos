@@ -6,7 +6,6 @@ const ImageBanner = () => {
     <div className='container-images'>
         <h1>Our Gallery</h1>
         <div className='images1'>
-          hi
             <div className='pic1' />
             <div className='pic2' />
             <div className='pic3' />
@@ -18,7 +17,7 @@ const ImageBanner = () => {
         <div className='pic7' />
         <div className='pic8' />
         </div>
-        <button className='button-image'>View All</button>
+        <button className='shared-button'>View All</button>
     </div>
   )
 }

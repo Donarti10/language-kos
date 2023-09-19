@@ -1,5 +1,6 @@
 import React from "react";
-import "./footer.scss";
+import "../Footer/footer.scss";
+import { AiOutlineMail } from 'react-icons/ai'
 
 const Footer = () => {
   return (
@@ -10,13 +11,10 @@ const Footer = () => {
         <p>
           Get our latest offer, news and articles first hand right in your inbox
         </p>
-      </div>
-      <div className="text-footer">
-        <div className="border">
-          <span>Write Email Here</span>
-          <div className="button-footer">
-            <button>Submit</button>
-          </div>
+
+        <div className="text-footer">
+          <span><AiOutlineMail />Write Email Here</span>
+          <button>Submit</button>
         </div>
       </div>
     </div>

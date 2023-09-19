@@ -1,0 +1,283 @@
+ .images-component{
+    padding:0 5%;
+    margin:15% 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    .images{
+        width: 40%;
+    }
+    .text{
+        width: 45%;
+        h1{
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+    }
+    .top{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .img1{
+        width: 41%;
+        background-image: url('../../../assets/login/jeremy-bezanger-CEFVJ7zqoLs-unsplash.png');
+        padding-top: 53%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: 70%;
+        left: 65%;
+        z-index: 2;
+    }
+    .img2{
+        width: 45%;
+        background-image: url('../../../assets/login/Ellipse\ 7.png');
+        padding: 22.5% 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 120%;
+        right: 1%;
+    }
+    .img3{
+        width: 41%;
+        background-image: url('../../../assets/login/Ellipse\ 701.png');
+        padding: 22%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 10%;
+        left: 75%;
+        z-index: 1;
+    }
+    .img4{
+        width: 15%;
+        background-image: url('../../../assets/login/Group\ 2390.png');
+        padding: 7.5% 20px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 155%;
+        right: 17%;
+    }
+    .img5{
+        width: 11%;
+        background-image: url('../../../assets/login/element5-digital-7K_agbqPqYo-unsplash.png');
+        padding: 28% 16%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 100%;
+        left: 10%;
+    }
+    .img6{
+        width: 45%;
+        background-image: url('../../../assets/login/Mask\ Group\ 4.png');
+        padding: 16% 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 78%;
+        left: 50%;
+    }
+    .img7{
+        width: 41%;
+        background-image: url('../../../assets/login/national-cancer-institute-N_aihp118p8-unsplash.png');
+        padding: 40% 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: 20%;
+        left: 10%;
+    }
+    .img8{
+        width: 31%;
+        padding: 25%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+}
+.images-component .login-page{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    h1{
+        font-size: max(12px,1.8vw);
+        font-weight: 400;
+        margin-bottom: -10px;
+    }
+    p{
+        font-size: max(10px,0.85vw);
+        font-weight: 300;
+    }
+    span{
+        font-size: max(10px,0.90vw);
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    h4{
+        font-size: max(10px,0.90vw);
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    .username{
+        border:1px solid #ccc;
+        display: flex;
+        align-items: center;
+        height: 45px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        span{
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+        }
+        span svg{
+            font-size: max(15px,1.5vw);
+            color:#555;
+            margin:0 7px 0 0;
+        }
+        button{
+            display: flex;
+            margin: 3px 2px;
+            padding: 12px 20px ;
+            cursor: pointer;
+            font-size: max(10px,0.90vw);
+        }
+    }
+    .username input{
+        border: none;
+        flex: 1;
+        border:0;
+        outline: none;
+        cursor: pointer;
+        font-size: max(10px,1vw);
+    }
+}
+.login-page .inline-login{
+    display: flex;
+    gap: 6px;
+    margin-top: 5px;
+    h5{
+        font-size: max(10px,0.85vw);
+        font-weight: 400;
+    }
+    h6{
+        font-size: max(10px,0.85vw);
+        font-weight: 400;
+        margin-left: 51%;
+        color: var(--main-color);
+        cursor: pointer;
+    }
+    .login-page .inline-login input{
+        background-color: red;
+    }
+}
+.login-page button{
+    background-color: #35313C;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: max(10px,1vw);
+}
+.login-page .login-register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    h3{
+        font-size: max(10px,0.90vw);
+        font-weight: 300;
+    }
+    h4{
+        font-size: max(10px,0.90vw);
+        font-weight: 300;
+        color: var(--main-color);
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+}
+
+
+
+
+@media (max-width:850px) {
+    .images-component{
+        display: flex;
+        flex-direction: column;
+        margin: 30% 0;
+    }
+    .images-component .login-page{
+        width: 80%;
+        margin-top: 40%;
+    }
+    .images-component .images{
+        width: 55%;
+    }
+    .login-page .login-register{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 5% 0;
+    }
+}
+@media (max-width:650px) {
+    .images-component{
+        display: flex;
+        flex-direction: column;
+        margin: 35% 0;
+    }
+    .images-component .img4{
+        width: 15%;
+    }
+    .images-component .login-page{
+        width: 85%;
+        margin-top: 40%;
+    }
+    .images-component .images{
+        width: 60%;
+    }
+}
+@media (max-width:550px) {
+    .images-component{
+        display: flex;
+        flex-direction: column;
+        margin: 40% 0;
+    }
+    .images-component .img4{
+        width: 12%;
+        padding: 15.1px 0;
+    }
+    .images-component .login-page{
+        width: 90%;
+        margin-top: 40%;
+    }
+    .images-component .images{
+        width: 65%;
+    }
+}
+@media (max-width:400px) {
+    .images-component{
+        display: flex;
+        flex-direction: column;
+        margin: 50% 0 25% 0;
+    }
+    .images-component .login-page{
+        margin-top: 55%;
+    }
+    .images-component .images{
+        margin-right: 50px;
+    }
+}
